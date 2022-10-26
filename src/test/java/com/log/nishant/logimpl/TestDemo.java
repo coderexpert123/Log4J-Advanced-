@@ -25,20 +25,23 @@ public class TestDemo {
 		//Layout layout=new HTMLLayout();
 		//Layout layout=new SimpleLayout();
 		//Layout layout=new XMLLayout();
-		Layout layout=new PatternLayout("%d %t %C %M %m %p %n");
+		//Layout layout=new PatternLayout("%C  %L %l [ %m ] %n");
 
 
 
 		//create the appender and link the layout
-		Appender appender=new FileAppender(layout,"D:/logs.log");
+		//Appender appender=new FileAppender(layout,"D:/logs.log");
+		//Appender appender=new ConsoleAppender(layout);
 		//link appender with logger 
-		logger.addAppender(appender);
+		//logger.addAppender(appender);
 		//print messages 
 		logger.debug("From debug");
 		logger.info("from appender");
 		logger.warn("from warn");
 		logger.error("from error");
 		logger.fatal("from fatal");
+		
+	System.out.println("DONE");
 
 	}
 }

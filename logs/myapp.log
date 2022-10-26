@@ -1,0 +1,4 @@
+2022-10-26 11:32:57 INFO com.log.nishant.logimpl.TestDemo:39 - from appender
+2022-10-26 11:32:57 WARN com.log.nishant.logimpl.TestDemo:40 - from warn
+2022-10-26 11:32:57 ERROR com.log.nishant.logimpl.TestDemo:41 - from error
+2022-10-26 11:32:57 FATAL com.log.nishant.logimpl.TestDemo:42 - from fatal
